@@ -13,6 +13,7 @@ export const App = (props: Props) => {
         flexDirection: "column",
       }}
     >
+      <text style={{ fontSize: 200, color: "gray" }}>0</text>
       <div style={{ flexGrow: 1, justifyContent: "space-between" }}>
         <button style={{ height: 44, margin: 8 }}>Incrementar</button>
         <button style={{ height: 44, margin: 8 }}>Decrementar</button>
